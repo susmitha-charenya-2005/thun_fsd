@@ -1,0 +1,291 @@
+.a{
+    height: 700px;
+    width: 880px;
+    border: 2px solid black;
+    padding-top:0px ;
+}
+.b{
+    height: 400px;
+    width: 880px;
+    border-bottom: 2px solid black;
+}
+.d{
+    height: 400px;
+    width:220px ;
+    border-right: 2px solid black;
+    float: left;
+}
+.e{
+    height: 300px;
+    width: 220px;
+    border-right: 2px solid black;
+    float: left;
+}
+    
+
+.f{
+    height: 310px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+.g{
+    height: 310px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 3px;
+    float: right;
+    margin-right: 7px;
+    margin-top: 30px;
+}
+.h{
+    height: 220px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 30px;
+    overflow: auto;
+}
+.h::-webkit-scrollbar-track{width: 4px;}
+    .h::-webkit-scrollbar-thumb{border-radius:20px;}
+    .h::-webkit-scrollbar-thumb:hover{background-color: darkgrey;}
+.i{
+    height: 220px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 3px;
+    margin-top: 30px;
+    float: right;
+    margin-right: 7px;
+}
+.j{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(22, 169, 227);
+    border: 2px solid rgb(7, 90, 123);
+}
+.s{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(22, 169, 227);
+    border: 2px solid rgb(7, 90, 123);
+    position: relative;mix-blend-mode: multiply;
+}
+.k{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(74, 235, 74);
+    border: 2px solid green;
+}
+.l{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(74, 235, 74);
+    border: 2px solid green;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    mix-blend-mode: multiply;
+}
+.m{
+    height: 100px;
+    width: 90px;
+    background-color:rgb(74, 235, 74);
+    border: 2px solid green;
+    position: absolute;
+    left: 105px;
+    top:105px;
+}
+.n{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(74, 235, 74);
+    border: 2px solid green;
+    position: fixed;
+     top: 0px;
+     right: 0px;
+}
+.o{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(26, 231, 26);
+    border: 2px solid green;
+    position: sticky;
+    top: 0px;
+     margin-top:10px;
+     mix-blend-mode: multiply;
+     overflow: auto;
+}
+.p{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(11, 159, 217);
+    border: 2px solid rgb(7, 90, 123);
+    position: absolute;
+    top: 580px;
+    mix-blend-mode: multiply;
+}
+.q{
+    height: 100px;
+    width:100px;
+    background-color:rgb(14, 130, 175);
+    border: 2px solid rgb(7, 90, 123);
+    position: relative;
+    top: 35px;
+    mix-blend-mode: multiply;
+}
+.r{
+    position: relative;
+    left: 10px;
+}
+.u{
+    height: 120px;
+    width: 100px;
+    background-color:rgb(11, 159, 217);
+    border: 2px solid rgb(7, 90, 123);
+    mix-blend-mode: multiply;
+}
+.t{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(26, 231, 26);
+    border: 2px solid green;
+    position:sticky;
+    margin-bottom:20px;
+    mix-blend-mode: multiply;
+    bottom: 0px;
+}
+.v{
+    height: 140px;
+    width: 100px;
+    background-color:rgb(11, 159, 217);
+    border: 2px solid rgb(7, 90, 123);
+    mix-blend-mode: multiply;
+    position: relative;
+    bottom:130px;
+}
+.w{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(11, 159, 217);
+    border: 2px solid rgb(7, 90, 123);
+    mix-blend-mode: multiply;
+     float:left;
+     position:relative;
+     top: 0px;
+}
+.x{
+    height: 100px;
+    width: 93px;
+    background-color:rgb(11, 159, 217);
+    border: 2px solid rgb(7, 90, 123);
+    mix-blend-mode: multiply;
+    position:relative;
+    left: 100px;
+}
+.y{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(26, 231, 26);
+    border: 2px solid green;
+    position:sticky;
+    mix-blend-mode: multiply;
+    left:0px;
+    margin-left: 20px;
+}
+.z{
+    height: 100px;
+    width: 93px;
+    background-color:rgb(11, 159, 217);
+    border: 2px solid rgb(7, 90, 123);
+    mix-blend-mode: multiply;
+    position:relative;
+    left:93px;
+    bottom: 0px;
+    top: 0px;
+}
+.me{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(11, 159, 217);
+    border: 2px solid rgb(7, 90, 123);
+    mix-blend-mode: multiply; 
+    float:left;
+    position:relative;
+    top: 0px;
+}
+.my{
+    height: 100px;
+    width:93px;
+    background-color:rgb(11, 159, 217);
+    border: 2px solid rgb(7, 90, 123);
+    mix-blend-mode: multiply;
+     float:right;
+     position: relative;
+     top: 0px;
+     left:0px;
+}
+.main{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(26, 231, 26);
+    border: 2px solid green;
+    position:sticky;
+    mix-blend-mode: multiply;
+    margin-top: 0px;
+    right: 0px;
+    margin-left:120px;
+}
+.try{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(11, 159, 217);
+    border: 2px solid rgb(7, 90, 123);
+    mix-blend-mode: multiply;
+    float:left;
+    position:relative;
+    top: 0px;
+    left: 194px;
+}
+.you{
+    height: 220px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 30px;
+    overflow-x:scroll; 
+}
+.you::-webkit-scrollbar-track {width: 4px;}
+    .you::-webkit-scrollbar-thumb{ border-radius:20px;}
+    .you::-webkit-scrollbar-thumb:horizontal{background-color: darkgrey;}
+    .i{
+        overflow-x: scroll;
+    }
+    .i::-webkit-scrollbar-track {width: 4px;}
+    .i::-webkit-scrollbar-thumb{ border-radius:20px;}
+    .i::-webkit-scrollbar-thumb:horizontal{background-color: darkgrey;}
+/*div {
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+  }
+  
+  div::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+  }
+  
+  div::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* color of the track */
+  }
+  
+  div::-webkit-scrollbar-thumb {
+    background-color: #888; /* color of the thumb */
+    border-radius: 6px; /* rounded corners */
+  }
+  
+  div::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* col*/
+  
+  

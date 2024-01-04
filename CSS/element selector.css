@@ -1,0 +1,35 @@
+span{
+    color: red;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px; 
+    padding: 0px; 
+}
+input[type="text"]{
+    color: blue;
+}
+input[type="number"]{
+    color: green;
+}
+input[type="password"]{
+    color:purple;
+}
+/*a[href]{
+    color:red;
+}*/
+a:link{
+    color: brown;
+}
+a:visited{
+    color: lawngreen;
+}
+a:hover{
+     font-size: 20px;
+     color: black;
+}
+a:active{
+    color:navy;
+}

@@ -1,0 +1,114 @@
+.a{
+    height: 500px;width: 600px;background-color: antiquewhite;
+}
+.b{
+    height: 100px;width: 600px;background-color: pink;
+}
+.c{
+    height: 100px;width: 100px;background-color:red;float: left;
+}
+.me{
+    height: 100px;width: 400px;background-color:yellow;float: left;
+}
+.d{
+ height: 100px;width: 100px;background-color:black;float: right;
+}
+.e{
+    height: 50px;width: 100px;background-color: purple;
+}
+.f{
+    height: 50px;width: 100px;background-color: yellow;
+}
+.g{
+    height: 50px;width: 50px;background-color:green;float:left;
+}
+.h{
+    height: 50px;width: 50px;background-color:tomato;float:right;
+}
+.i{
+    height: 400px;width: 100px;background-color: orange;float:left;
+}
+.j{
+    height: 300px;width: 100px;background-color: brown;
+}
+.k{
+    height: 100px;width: 100px;background-color: yellow;
+}
+.l{
+    height: 100px;width: 50px;background-color:green;float:left;
+}
+.m{
+    height: 100px;width: 50px;background-color:blue;float:right;
+}
+.n{
+    height: 400px;width: 600px;background-color: blue;  
+}
+.o{
+    height: 400px;width: 500px;background-color:green;float:left;
+}
+.p{
+    height: 100px;width: 500px;background-color: purple;
+}
+.q{
+    height: 300px;width: 500px;background-color:yellow;
+}
+.r{
+    height: 300px;width: 100px;background-color:aqua;float:left;  
+}
+.s{
+    height: 200px;width: 100px;background-color:darkred;
+}
+.t{
+    height: 200px;width: 50px;background-color:gray;float:left; 
+}
+.u{
+    height: 200px;width: 50px;background-color:indigo;float: right;  
+}
+.v{
+    height: 100px;width: 100px;background-color:darkred;
+}
+.w{
+    height: 300px;width: 100px;background-color:violet;float:left;
+}
+.x{
+    height: 300px;width: 300px;background-color:blue;float: right; 
+}
+.y{
+    height: 100px;width: 300px;background-color:grey; 
+}
+.z{
+    height: 200px;width: 300px;background-color:brown;
+}
+.a1{
+    height: 200px;width: 100px;background-color:rebeccapurple;float:left;
+}
+.a2{
+    height: 100px;width: 100px;background-color:black;
+}
+.a3{
+    height: 100px;width: 100px;background-color:tan; 
+}
+.a4{
+    height: 100px;width: 50px;background-color:navy;float:left;  
+}
+.a5{
+    height: 100px;width: 50px;background-color:red;float: right; 
+}
+.a6{
+    height: 200px;width: 100px;background-color:yellow;float:left; 
+}
+.a7{
+    height: 200px;width: 100px;background-color:silver;float: right;  
+}
+.a8{
+    height: 100px;width: 100px;background-color:red;
+}
+.a9{
+    height: 100px;width: 100px;background-color:green; 
+}
+.a10{
+    height: 100px;width: 50px;background-color:hotpink;float:left;
+}
+.a11{
+    height: 100px;width: 50px;background-color:blue;float: right;  
+}
