@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transform</title>
+        <style>
+            .one{
+                height: 300px;
+                width: 200px;
+                background-color: red;
+                margin-left: 30px;
+            }
+            .one:hover{
+                transform: translate(40px,50px);/*moves from both x and y sides*/
+            }
+            .two{
+                height: 300px;
+                width: 200px;
+                background-color:green;
+                position: absolute;
+               left: 260px;
+               top: 45px;
+                float: left;
+            }
+            .two:hover{
+                transform: translateX(40px);/*translate-X and translate-Y are used to specify in any one direction*/
+            }
+            .three{
+                height: 300px;
+                width: 200px;
+                background-color:purple;
+                position: absolute;
+               left: 480px;
+               top: 45px;
+                float: left;
+            }
+            .three:hover{
+                transform: translateY(50px);
+            }
+            .four{
+                height: 300px;
+                width: 200px;
+                background-color:yellow;
+                position: absolute;
+               left:700px;
+               top: 45px;
+            }
+            .four:hover{
+               /* transform:rotate(60deg); for this clock-wise it moves*/
+                transform:rotate(-60deg);/*anti clock-wise*/ 
+            }
+            .five{
+                height: 300px;
+                width: 200px;
+                background-color:pink;
+                position: absolute;
+               left:920px;
+               top: 45px;
+                float: left;
+            }
+            .five:hover{
+                transform:rotateX(60deg);/*rotate x and y are used to specify rotate funtion in one direction*/
+            }
+            .six{
+                height: 300px;
+                width: 200px;
+                background-color:skyblue;
+                position: absolute;
+               right:180px;
+               top: 45px;
+                float: left;
+            }
+            .six:hover{
+                transform:rotateY(60deg);
+            }
+            .seven{
+                height: 300px;
+                width: 200px;
+                background-color:blue;
+                margin-left: 30px;
+                margin-top:35px;
+            }
+            .seven:hover{
+                transform:scale(2);
+            }
+            .eight{
+                height: 300px;
+                width: 200px;
+                background-color:palevioletred;
+                position: absolute;
+               left: 260px;
+               top: 380px;
+            }
+            .eight:hover{
+                transform:scaleX(2);
+            }
+            .nine{
+                height: 300px;
+                width: 200px;
+                background-color:orangered;
+                position: absolute;
+               left: 480px;
+               top:380px;
+            }
+            .nine:hover{
+                transform:scaleY(2);
+            }
+            .ten{
+                height: 300px;
+                width: 200px;
+                background-color:lightgreen;
+                position: absolute;
+               left:700px;
+               top:380px;
+                float: left;
+            }
+            .ten:hover{
+                transform:skew(30deg,20deg);
+            }
+            .eleven{
+                height: 300px;
+                width: 200px;
+                background-color:rgb(210, 9, 210);
+                position: absolute;
+               left:920px;
+               top:380px;
+            }
+            .eleven:hover{
+                transform:skewX(30deg);
+            }
+            .twelve{
+                height: 300px;
+                width: 200px;
+                background-color:rgb(219, 125, 10);
+                position: absolute;
+               right: 180px;
+               top:380px;
+            }
+            .twelve:hover{
+                transform:skewY(20deg);
+            }
+            .hundred{
+                height: 300px;
+                width: 200px;
+                background-color:indigo;
+                position: absolute;
+               left:40px;
+               top:700px;
+            }
+            .hundred:hover{
+              transform:matrix(1,0,0,3,30,0);/*for this we can apply all the properties like scalex(),scaley(),skewx(),
+              skewy,translatex(),translate() only these six properties in order*/
+         }
+        </style>
+    </head>
+    <body>
+        <center>Transform property in CSS</center><hr>
+        <div class="one">transform()</div>
+        <div class="two">translateX</div>
+        <div class="three">translateY</div>
+        <div class="four">rotate</div>
+        <div class="five">rotateX</div>
+        <div class="six">rotateY</div>
+        <div class="seven">scale</div>
+        <div class="eight">scaleX</div>
+        <div class="nine">scaleY</div>
+        <div class="ten">skew</div>
+        <div class="eleven">skewX</div>
+        <div class="twelve">skewY</div>
+        <div class="hundred">matrix</div>
+    </body>
+</html>

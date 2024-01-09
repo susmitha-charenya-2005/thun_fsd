@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>animation</title>
+        <style>
+            .me{
+                height: 250px;
+                width: 250px;
+                background-color: orangered;
+                position: relative;
+                animation-name: susmi;
+                animation-duration:20s;/*in how much tym it should execute*/
+                animation-iteration-count: 2;/* how many tyms it should execute*/
+                animation-delay: 3s;
+                animation-timing-function: linear;
+                animation-fill-mode: backwards;/*forward means ends at first color and backwards means ends at original color*/
+                animation-direction:alternate;/*in this clockwise and anticlockwise directions will be changed by using reverse normal and more*/
+                /*animation:susmi 20s ease-in 2 2s reverse; this is shorthand property all types can be mentioned here*/ 
+            }
+            @keyframes susmi{
+               /* from{
+                    height: 200px;
+                    width: 200px;
+                    background-color:greenyellow;
+                    border-radius: 10px;
+                    border: 2px solid red;
+                }
+                to{
+                    background-color: purple;
+                    border-radius: 30px;
+                    border: 2px solid yellow;
+                } this is one type of method to define properties if we want to give changes for different gaps then give percentage*/
+                0%{
+                    background-color: rgb(235, 16, 89);top: 100px;left: 100px;
+                }
+                10%{
+                    background-color: yellow;top: 0px;left:100px
+                }
+                20%{
+                    background-color: green;top: 100px;left:200px
+                }
+                30%{
+                    background-color: red;top: 300px;left:100px
+                }
+              /*  40%{
+                    background-color: blue;top: 100px;left:0px
+                }
+                50%{
+                    background-color:burlywood;top: 0px;left:100px
+                }
+                60%{
+                    background-color:orangered;top: 100px;left:0px
+                }
+                70%{
+                    background-color: purple;top: 0px;left: 100px
+                }
+                80%{
+                    background-color:lightcoral;top: 100px;left:0px
+                }
+                90%{
+                    background-color: brown;top: 0px;left: 100px
+                }
+                100%{
+                    background-color:skyblue;top: 100px;left:0px
+                }*/
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Animation in CSS</h1>
+            <div class="me"></div>
+        </center>
+    </body>
+</html>
