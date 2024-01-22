@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 400px;
+            width: 250px;
+            background-color: orange;
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .a:hover{
+            /* transform: translate(50px); */
+            /* transform: translate(50px,100px); for x and y axis  */
+            transform: translate3d(30px,40px,60px);
+        }
+        .b{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(72, 72, 239);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .b:hover{
+            transform: translatex(80px);
+        }
+        .c{
+            height: 400px;
+            width: 250px;
+            background-color: brown;
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .c:hover{
+            transform: translatey(50px);
+        }
+        .d{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(242, 113, 134);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .d:hover{
+            transform: rotate(60deg);
+            /* transform: rotate(-60deg); for anticlock wise direction */
+        }
+        .e{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(113, 242, 132);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .e:hover{
+            transform: rotatex(60deg);
+        }
+        .f{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(236, 236, 70);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .f:hover{
+            transform: rotatey(60deg);
+        }
+        .g{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(54, 189, 247);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .g:hover{
+            transform: scale(1.5);
+            /* transform: scale(1.5,2); for x and y axis  */
+        }
+        .h{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(63, 231, 155);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .h:hover{
+            transform: scaleX(2);
+        }
+        .i{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(240, 75, 75);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .i:hover{
+            transform: scaley(2);
+        }
+        .j{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(56, 54, 54);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .j:hover{
+            transform: skew(30deg);
+        }
+        .k{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(94, 240, 75);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .k:hover{
+            transform: skewx(50deg);
+        }
+        .l{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(75, 152, 240);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .l:hover{
+            transform: skewy(50deg);
+        }
+        .m{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(238, 8, 161);
+            margin-top: 20px;
+             
+            float: left;
+            color: white;
+        }
+        .m:hover{
+            transform: matrix(1,0.4,0,0,50px);
+        }
+        @media screen and (min-width:271px) and (max-width:535px){
+            .a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m {
+                width: 100%;
+            }
+        }
+        @media screen and (min-width:536px) and (max-width:795px){
+            .a,.c,.e,.g,.i,.k,.m {
+                width: 50%;
+                float: left;
+            }
+            .b,.d,.f,.h,.j,.l{
+                width: 50%;
+                float: right;
+            }
+        }
+        @media screen and (min-width:795px) and (max-width:1015px){
+            .a,.d,.g,.j,.m {
+                width: 33.3%;
+                float: left;
+            }
+            .b,.e,.h,.k{
+                width: 33.3%;
+                float: left;
+            }
+            .c,.f,.i,.l{
+                width: 33.3%;
+                float: right;
+            }
+        }
+        @media screen and (min-width:1015px) and (max-width:1265px){
+            .a,.b,.c,.d {
+                width: 25%;
+                float: left;
+            }
+            .e,.f,.g,.h{
+                width: 25%;
+                float: left;
+            }
+            .i,.j,.k,.l{
+                width: 25%;
+                float: left;
+            }
+            .m{
+                width: 25%;
+                float: right;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center><h1>transform in css</h1></center><hr>
+    <div class="a"> <center style="margin-top: 150px;">Translate(50px,100px)</center></div>
+    <div class="b"> <center style="margin-top: 150px;">Translatex(80px)</center></div>
+    <div class="c"> <center style="margin-top: 150px;">Translatey(80px)</center></div>
+    <div class="d"> <center style="margin-top: 150px;">Rotate(60deg)</center></div>
+    <div class="e"> <center style="margin-top: 150px;">Rotatex(60deg)</center></div>
+    <div class="f"> <center style="margin-top: 150px;">Rotatey(60deg)</center></div>
+    <div class="g"> <center style="margin-top: 150px;">Scale</center></div>
+    <div class="h"> <center style="margin-top: 150px;"> transform: scaleX(2)</center></div>
+    <div class="i"> <center style="margin-top: 150px;">  transform: scaley(2)</center></div>
+    <div class="j"> <center style="margin-top: 150px;">  transform: skew(30deg)</center></div>
+    <div class="k"> <center style="margin-top: 150px;">  transform: skewx(50deg)</center></div>
+    <div class="l"> <center style="margin-top: 150px;">  transform: skewy(50deg)</center></div>
+    <div class="m"> <center style="margin-top: 150px;">  transform: matrix(scalex(),skewy(),skewx(),<br>scaley(),translatex(),translatey()) </center></div>
+</body>
+</html>
